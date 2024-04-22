@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Cart from "./Cart";
+import Store from "./Store";
 import image1 from '../images/image1.jpeg';
 import image2 from '../images/image2.jpeg';
 import image3 from '../images/image3.jpeg';
@@ -30,7 +30,8 @@ function App() {
 
     return (
         <div>
-            <Cart data={items} />
+            <Store data={items} />
+            
         </div>
 
     )
